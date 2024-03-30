@@ -12,7 +12,7 @@
             "contentlog"
         ]
     },
-    "asset_url": "https://github.com/Dofes/ContentLogBlocker/releases/download/v0.0.1/ContentLogBlocker-windows-x64.zip",
+    "asset_url": "https://github.com/Dofes/ContentLogBlocker/releases/download/v0.0.2/ContentLogBlocker-windows-x64.zip",
     "prerequisites": {
         "github.com/LiteLDev/LeviLamina": ">=0.10.2"
     },
