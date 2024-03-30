@@ -1,6 +1,6 @@
 {
     "format_version": 2,
-    "tooth": "ContentLogBlocker",
+    "tooth": "github.com/Dofes/ContentLogBlocker",
     "version": "0.0.1",
     "info": {
         "name": "ContentLogBlocker",
