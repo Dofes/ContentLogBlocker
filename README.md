@@ -1,35 +1,46 @@
-# LeviLamina Plugin Template
+# ContentLogBlocker
 
-A LeviLamina plugin template
+一个简单的LeviLamina插件，用于屏蔽你想要屏蔽的ContentLog。
 
-This plugin is a template for developing LeviLamina plugins.
+## 安装
 
-## Install
+### 使用Lip
 
-Generate a new repository from this template.
+```sh
+lip install github.com/Dofes/ContentLogBlocker
+```
 
-## Usage
+### 手动安装
 
-Before using this plugin template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
+1. 从[发布页面](https://github.com/Dofes/ContentLogBlocker/releases)下载最新版本。
+2. 解压`ContentLogBlocker-windows-x64.zip`文件。
+3. 将`ContentLogBlocker`文件夹复制到BDS安装目录下的`plugins`文件夹中。
 
-1. Clone the new repository into a local folder.
+## 使用
 
-1. Change the plugin name and the expected LeviLamina version in `xmake.lua`.
+首次运行后，ContentLogBlocker将在`plugin/ContentLogBlocker/config/`中生成配置文件。您可以修改这些文件以定制插件的行为。
 
-1. Add your code.
+### 配置文件
 
-1. Run `xmake repo -u` in the root of the repository.
+```json
+......
+    "blocked": [
+        [
+            3,
+            29
+        ], // Error : Structure
+        [
+            3,
+            26
+        ], // Error : Script
+        [
+            3,
+            9
+        ] // Error : Component
+    ]
+......
+```
 
-1. Run `xmake` to build the plugin.
+这是默认的配置文件，你可以在你的config文件夹中找到这个文件。你可以在这里添加你想要屏蔽的ContentLog的Level:Area。
 
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+MIT © Dofes
