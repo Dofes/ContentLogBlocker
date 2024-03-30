@@ -22,8 +22,8 @@ lip install github.com/Dofes/ContentLogBlocker
 
 ### 配置文件
 
-```json
-......
+```jsonc
+// .........
     "blocked": [
         [
             3,
@@ -38,7 +38,7 @@ lip install github.com/Dofes/ContentLogBlocker
             9
         ] // Error : Component
     ]
-......
+// .........
 ```
 
 这是默认的配置文件，你可以在你的config文件夹中找到这个文件。你可以在这里添加你想要屏蔽的ContentLog的Level:Area。
