@@ -1,25 +1,26 @@
 {
     "format_version": 2,
-    "tooth": "my-plugin",
-    "version": "0.0.0",
+    "tooth": "ContentLogBlocker",
+    "version": "0.0.1",
     "info": {
-        "name": "My Plugin Name",
-        "description": "My Plugin Description",
-        "author": "My Name",
+        "name": "ContentLogBlocker",
+        "description": "A simple plugin to block the content log you don't want to see.",
+        "author": "Dofes",
         "tags": [
             "levilamina",
-            "plugin"
+            "plugin",
+            "contentlog"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/Dofes/ContentLogBlocker/releases/download/v0.0.1/ContentLogBlocker-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "My LeviLamina Dependency Version"
+        "github.com/LiteLDev/LeviLamina": ">=0.10.2"
     },
     "files": {
         "place": [
             {
-                "src": "my-plugin/*",
-                "dest": "plugins/my-plugin/"
+                "src": "ContentLogBlocker/*",
+                "dest": "plugins/ContentLogBlocker/"
             }
         ]
     }
