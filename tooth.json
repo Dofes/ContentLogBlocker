@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/Dofes/ContentLogBlocker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "info": {
         "name": "ContentLogBlocker",
         "description": "A simple plugin to block the content log you don't want to see.",
