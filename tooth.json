@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/Dofes/ContentLogBlocker",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "info": {
         "name": "ContentLogBlocker",
         "description": "A simple plugin to block the content log you don't want to see.",
@@ -12,9 +12,9 @@
             "contentlog"
         ]
     },
-    "asset_url": "https://github.com/Dofes/ContentLogBlocker/releases/download/v0.0.3/ContentLogBlocker-windows-x64.zip",
+    "asset_url": "https://github.com/Dofes/ContentLogBlocker/releases/download/v0.0.4/ContentLogBlocker-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": ">=0.10.2"
+        "github.com/LiteLDev/LeviLamina": ">=0.11.1"
     },
     "files": {
         "place": [
