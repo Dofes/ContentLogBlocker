@@ -1,8 +1,7 @@
 #pragma once
 
-#include "Config.h"
 #include "ll/api/plugin/NativePlugin.h"
-
+#include "plugin/Config.h"
 
 namespace blocker {
 
